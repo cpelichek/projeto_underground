@@ -15,9 +15,9 @@ a {
   text-decoration: none;
   padding: none;
 }
+
  [class*="menu_item"]  {
   font-size: 1em;
-  height: 1em;
   font-family: 'Lato', sans-serif;
   background-color: none;
   padding: 1em;
@@ -26,6 +26,7 @@ a {
 
 [class*="menu_item"]:hover {
   background-color: red;
+  height: 100px
 
 }
 .barra_busca {
