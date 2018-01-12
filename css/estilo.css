@@ -24,6 +24,10 @@ a {
 
 }
 
+[class*="menu_item"]:hover {
+  background-color: red;
+
+}
 .barra_busca {
   display: flex;
   justify-content: flex-start;
