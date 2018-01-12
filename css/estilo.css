@@ -41,7 +41,7 @@ a {
 }
 
 /*conteudo a partir daqui */
-.manchete_container{
+.manchete_container1{
   display: flex;
   /* flex-direction: row; valor default*/
   background-image: url("../img/bar.png"), linear-gradient(to left, rgba(0, 0, 0, 1.0), rgba(255, 255, 255, 0.0));
@@ -51,8 +51,18 @@ a {
   width: 100%;
 }
 
-.manchete_container .manchete_item,
-.conteudo_container .conteudo_item{
+.manchete_container2{
+  display: flex;
+  /* flex-direction: row; valor default*/
+  background-image: url("../img/drinks.png"), linear-gradient(to right, rgba(0, 0, 0, 1.0), rgba(255, 255, 255, 0.0));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.manchete_item{
+padding: 10px;
   width: 50vw;
   color: white;
   font-size: calc(1.4vh + 2.4vh); /*Grabriel Morais ninja foda */
