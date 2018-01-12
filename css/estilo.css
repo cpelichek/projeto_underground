@@ -7,7 +7,7 @@
   border-top: 0;
   border-left: 0;
   border-left: 0;
-  background-color: pink;
+  background-color: #001F54;
 }
 
 a {
@@ -25,8 +25,9 @@ a {
 }
 
 [class*="menu_item"]:hover {
+  color: white;
   background-color: red;
-  height: 100px
+  height: 80px;
 
 }
 .barra_busca {
