@@ -35,3 +35,42 @@ a {
   border: 1px solid white;
   border-radius: 10px;
 }
+
+/*rodape a partir daqui */
+
+#rodape_container{
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#rodape_item1{
+
+  font-weight: bold;
+
+}
+
+#rodape_item2{
+
+}
+
+#rodape_item3{
+  font-weight: bold;
+}
+
+div .redes-sociais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.redes-sociais img{
+  margin: 20px 0 20px 0;
+}
+
+#twitter{
+  margin-top: -10px;
+}
