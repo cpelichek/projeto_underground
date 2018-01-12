@@ -11,7 +11,7 @@ body{
   border-top: 0;
   border-left: 0;
   border-left: 0;
-  background-color: pink;
+  background-color: #001F54;
 }
 
 a {
@@ -19,15 +19,21 @@ a {
   text-decoration: none;
   padding: none;
 }
+
  [class*="menu_item"]  {
   font-size: 1em;
-  height: 1em;
   font-family: 'Lato', sans-serif;
   background-color: none;
   padding: 1em;
 
 }
 
+[class*="menu_item"]:hover {
+  color: white;
+  background-color: red;
+  height: 80px;
+
+}
 .barra_busca {
   display: flex;
   justify-content: flex-start;
